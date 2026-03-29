@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #081b29;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1250px;
+    height: 1000px;
+    gap: 20px;
+    position: relative;
+    top: 500px;
+    right: 250px;
+}
+
+.content .info {
+    width: 90%;
+    height: 45%;
+    gap: 15px;
+}
+
+.info h1 {
+    font-size: 100px;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.info h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(30, 96, 238);
+    position: relative;
+    bottom: 50px;
+}
+
+.info p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffff;
+
+    position: relative;
+    bottom: 60px;
+}
+
+.content .socials {
+    width: 45%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    text-decoration: none;
+    color: rgb(30, 96, 238);
+}
+
+.content .socials a {
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(27, 99, 255);
+    position: relative;
+    top: 5px;
+}
+
+.socials span {
+    font-size: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(20, 107, 238);
+    border-radius: 100%;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+    margin-left: 10px;
+    position: relative;
+    top: 300px;
+    right: 420px;
+}
+
+.socials span:hover {
+    background-color: rgba(20, 107, 238, 0.521);
+    color: #ffff;
+}
+
+.content .info .a {
+    border: none;
+    text-decoration: none;
+    background: #081b29;
+    cursor: pointer;
+    border: 1px solid rgb(30, 179, 238);
+    color: rgb(30, 96, 238);
+    padding: 20px 30px;
+    margin-left: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.content .info .a:hover {
+    background: rgba(30, 162, 238, 0.295);
+}
+
+.other {
+    position: relative;
+}
+
+.other h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffff;
+
+    position: relative;
+    top: -1250px;
+    left: -550px;
+
+    transition: .4s ease;
+}
+
+.other h1:hover {
+    color: rgba(156, 156, 156, 0.767);
+    word-spacing: 200px;
+    transform: scale(1.1);
+}
