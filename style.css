@@ -72,12 +72,6 @@ nav ul li a:hover{
     color:#aaa;
 }
 
-.buttons{
-    margin-top:30px;
-    display:flex;
-    gap:20px;
-}
-
 .purple-btn,
 .dark-btn{
     display:inline-flex;
