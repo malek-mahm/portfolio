@@ -7,10 +7,13 @@
     font-family:'Poppins',sans-serif;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     background:#060816;
     color:white;
-    scroll-behavior:smooth;
 }
 
 /* NAVBAR */
@@ -81,6 +84,36 @@ button{
     cursor:pointer;
     font-size:16px;
     transition:0.3s;
+}
+
+.purple-btn,
+.dark-btn{
+    display:inline-block;
+    padding:14px 30px;
+    border-radius:10px;
+    text-decoration:none;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+.purple-btn{
+    background:#9b5cff;
+    color:white;
+}
+
+.purple-btn:hover{
+    background:#7d3fff;
+}
+
+.dark-btn{
+    background:transparent;
+    border:1px solid #555;
+    color:white;
+}
+
+.dark-btn:hover{
+    background:#111629;
 }
 
 .purple-btn{
