@@ -318,5 +318,11 @@ nav ul{ gap:20px; }
     width:100%;
     max-width:400px;
 }
+    
+.skill-box,
+.project-box,
+.contact-box{
+    transition:0.3s ease;
+}
 
 }
