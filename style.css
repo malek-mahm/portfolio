@@ -72,6 +72,12 @@ nav ul li a:hover{
     color:#aaa;
 }
 
+.buttons{
+    margin-top:30px;
+    display:flex;
+    gap:20px;
+}
+
 .purple-btn,
 .dark-btn{
     display:inline-flex;
@@ -92,7 +98,6 @@ nav ul li a:hover{
 
 .purple-btn:hover{
     background:#7d3fff;
-    transform:translateY(-2px);
 }
 
 .dark-btn{
@@ -103,7 +108,6 @@ nav ul li a:hover{
 
 .dark-btn:hover{
     background:#111629;
-    transform:translateY(-2px);
 }
 
 .socials{
